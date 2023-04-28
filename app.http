@@ -1,0 +1,14 @@
+GET http://localhost:3000/todos/?search_q=Play
+
+####
+GET http://localhost:3000/todos/1/
+
+####
+PUT http://localhost:3000/todos/1/ 
+Content-Type: application/json
+
+{
+     "status": "DONE" }
+####
+DELETE http://localhost:3000/todos/1/ 
+
